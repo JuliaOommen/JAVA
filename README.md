@@ -12,3 +12,6 @@ Program 1 : (Frequency) This Java program finds the top k most frequently occurr
 
 Program 2 : (Trade) This Java program calculates the maximum possible profit from two stock transactions using an array of stock prices. It tracks the minimum buy prices and maximum sell profits for both transactions to maximize returns. Input validation ensures at least two prices are provided before calculating profits.
 
+Lab 3
+
+(Payroll) This Java program is an employee payroll system for managing various employee roles with different payment structures using object-oriented principles. The base class, Employee, defines general attributes and methods, while specialized classes (HourlyEmployee, SalariedEmployee, and ExecutiveEmployee) extend it, each implementing unique salary and bonus calculations. The program includes methods for calculating weekly salaries, determining bonuses, and displaying employee information. 
