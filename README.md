@@ -31,3 +31,22 @@ RoundHouses: Similar to RowHouses, but for round houses where the starting point
 SquareHouse: Calculates the maximum money that can be stolen from a square grid of houses by alternating between two patterns (starting from the first or second house).
 MultiHouseBuilding: Uses dynamic programming to calculate the maximum money that can be stolen from a multi-row, multi-column matrix of houses, where the robber must skip adjacent houses.
 The program then executes these methods, taking input from the user to simulate different robbery scenarios for various house layouts.
+
+Lab 5
+
+Program 1: (Banking)
+The Java code demonstrates the use of an interface (BankInterface) and class inheritance to model three banks (BankA, BankB, BankC).
+BankInterface: Defines two abstract methods: getBalance() and getInterestRate(), which are implemented by the three bank classes.
+BankA, BankB, BankC: Each class implements the BankInterface and defines the getBalance() and getInterestRate() methods. Each bank class has a constructor that accepts an initial balance and a fixed interest rate (7.0% for BankA, 7.4% for BankB, and 7.9% for BankC).
+Banking class (main method): This class instantiates objects of BankA, BankB, and BankC with specified balances (10000, 150000, and 200000 respectively) and displays each bank's balance and interest rate.
+
+Program 2: (WaterConservation)
+The Java program models a water conservation system to calculate the amount of rainwater trapped between city blocks based on their heights.
+WaterConservationSystem Interface: Defines the method calculateTrappedWater(int[] blockHeights) to calculate the trapped water.
+RainySeasonConservation Abstract Class: Implements the WaterConservationSystem interface and defines an abstract method calculateTrappedWater.
+CityBlockConservation Class: Extends RainySeasonConservation and implements the calculateTrappedWater method. It uses the two-pointer approach:
+It initializes two pointers, i (left) and j (right), to traverse the block heights from both ends.
+As it moves the pointers towards the center, it calculates trapped water based on the minimum of the maximum heights from both sides.
+WaterConservation Class (main method):
+Takes input for the number of city blocks and their heights.
+Calls CityBlockConservation to calculate the trapped water and prints the result.
